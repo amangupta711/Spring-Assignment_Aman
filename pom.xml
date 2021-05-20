@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.spring.assn</groupId>
-	<artifactId>assignment</artifactId>
+	<artifactId>SpringAssignment</artifactId>
 	<version>1.0</version>
-	<name>assignment</name>
+	<name>SpringAssigment</name>
 	<description>Spring assignment</description>
 	<properties>
 		<java.version>1.8</java.version>
