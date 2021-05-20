@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Home</title>
+<link rel="stylesheet" type="text/css" href="/webjars/bootstrap/css/bootstrap.min.css" />
+<style type="text/css">
+body {
+	background-color:#d4cbff;
+}
+</style>
+</head>
+<body>
+	<div class="container text-center">
+		<h1> Hello!<br><br></h1>
+		<h2>What would you like to do? </h2><br>
+	
+		<div>
+			<h3><a th:href="@{/register}">Register</a></h3><br>
+			<h3><a th:href="@{/login}">Login</a></h3><br>
+			<h3><a th:href="@{/users}">Show all members</a></h3>
+			<h3><a th:href="@{/bookpage}">Show all books and pages</a></h3>
+		</div>
+	</div>
+</body>
+</html>
